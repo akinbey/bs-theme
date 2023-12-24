@@ -1,0 +1,77 @@
+.round-button {
+  display: inline-block;
+  width: 4vh;
+  /* Düğme genişliği */
+  height: 4vh;
+  /* Düğme yüksekliği */
+  line-height: 5vh;
+  /* Metin dikey hizalaması */
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50%;
+  /* Tam yuvarlak için border-radius kullanılır */
+  background-color: rgb(51, 49, 49);
+  /* Düğme rengi */
+  color: #ffffff;
+  /* Metin rengi */
+  border: none;
+  /* Kenarlık olmaması için border'ı sıfırla */
+}
+
+.round-button:hover {
+  background-color: rgb(67, 135, 238);
+  /* Hover durumunda yeni bir renk */
+}
+
+
+.menu:hover {
+  color: white;
+
+}
+
+.menu:hover svg path {
+  fill: rgb(67, 135, 238);
+  /* İstenilen rengi buraya yazın */
+}
+
+.menu {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.719);
+}
+
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  display: grid;
+  place-items: center;
+}
+
+.footer-color {
+  color: rgb(67, 135, 238)
+}
+
+
+@media screen and (max-width: 768px) {
+  .minimg>img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .name{
+    font-size: 10px;
+  }
+  
+}
+
+.name {
+  margin-top: 3vh;
+  font-family: none;
+  font-weight: bolder;
+  margin-bottom: 3vh;
+  
+}
